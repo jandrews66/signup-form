@@ -1,3 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+body {
+    display: flex;
+    background-color:rgb(229, 232, 235)
+
+}
+
+@font-face {
+    font-family: Norse;
+    src: url(fonts/Norse-Bold.otf);
+  }
+
+#logo-text {
+    font-family: Norse;
+    font-size: 54px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+#img-container {
+
+}
+
+#logo-bg {
+    height: 150px;
+    width: 700px;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 95px;
+}
+
+#logo {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+}
 h1 {
-    color: red
+    margin: 40px;
+    font-size: 18px;
+    padding: 50px 0px;
+}
+
+legend {
+    margin: 20px 40px;
+    font-size: 22px;
+    color: rgb(41, 41, 116);
+    padding-top: 20px;
+    
+}
+ul {
+    width: 400px;
+    margin: 0px 40px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+li {
+    margin: 20px 40px 20px 0px;
+}
+form {
+    height: 350px;
+    margin: 0 auto;
+    width: 800px;
+    background-color: white;
+    box-shadow: 0 5px 2px -3px rgba(0, 0, 0, 0.3);
+    
+    
+}
+header {
+}
+
+label {
+    position: relative;
+  }
+
+  label,input{
+    display:flex;
+    flex-direction:column;
+  }
+
+  button {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(16, 93, 86);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+input {
+    padding: 4px;
+}
+
+input {
+    border-color: rgb(223, 223, 223);
+    border-width: 1px;
+    border-radius: 3px;
+    margin-top: 2px;
+
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: .1rem;
+}
+
+input:focus,
+textarea:focus {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+input:invalid,{
+  border-color: red;
+  border-radius: 5px;
 }
