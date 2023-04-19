@@ -55,7 +55,7 @@ legend {
     
 }
 ul {
-    width: 400px;
+    width: 500px;
     margin: 0px 40px;
     list-style: none;
     display: flex;
@@ -67,9 +67,9 @@ li {
     margin: 20px 40px 20px 0px;
 }
 form {
-    height: 350px;
+    max-height: 350px;
     margin: 0 auto;
-    width: 800px;
+    width: 900px;
     background-color: white;
     box-shadow: 0 5px 2px -3px rgba(0, 0, 0, 0.3);
     
@@ -102,8 +102,8 @@ label {
 
   p {
     font-size: 14px;
-    margin-top: 20px;
     margin-left: 40px;
+    margin-bottom: 20px;
   }
 
 input {
@@ -130,7 +130,20 @@ textarea:focus {
   border-radius: 5px;
 }
 
-input:invalid,{
+input:invalid {
   border-color: red;
   border-radius: 5px;
 }
+
+span {
+    font-size: 11px;
+    
+}
+
+input:required {
+    border: 1px solid rgb(129, 128, 128);
+  }
+  
+  input:optional {
+    border: 1px solid rgb(219, 219, 219);
+  }
